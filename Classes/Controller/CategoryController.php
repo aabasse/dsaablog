@@ -34,6 +34,12 @@ class CategoryController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControl
 {
 
     /**
+    *@var \Dawin2015\Dsaablog\Domain\Repository\CategoryRepository
+    *@inject
+    */
+    protected $categoryRepository;
+
+    /**
      * action list
      *
      * @return void
