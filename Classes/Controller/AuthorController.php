@@ -34,6 +34,11 @@ class AuthorController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionControlle
 {
 
     /**
+    *@var \Dawin2015\Dsaablog\Domain\Repository\AuthorRepository
+    *@inject
+    */
+    protected $authorRepository;
+    /**
      * action list
      *
      * @return void
