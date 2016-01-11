@@ -34,10 +34,12 @@ class TagController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
 
     /**
-     * action list
-     *
-     * @return void
+     * @var \Dawin2015\Dsaablog\Domain\Repository\TagRepository;
+     * @inject
      */
+    protected $tagRepository;
+
+
     public function listAction()
     {
         $tags = $this->tagRepository->findAll();
