@@ -1,0 +1,43 @@
+
+<table class="tx-dsaablog" >
+	<tr>
+		<td>
+			<f:translate key="tx_dsaablog_domain_model_post.title" />
+		</td>
+		<td>
+		{post.title}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_dsaablog_domain_model_post.summary" />
+		</td>
+		<td>
+		{post.summary}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_dsaablog_domain_model_post.content" />
+		</td>
+		<td>
+		{post.content}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_dsaablog_domain_model_post.publication" />
+		</td>
+		<td>
+		{post.publication -> f:format.date()}
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<f:translate key="tx_dsaablog_domain_model_post.thumbnail" />
+		</td>
+		<td>
+				<f:image src="{post.thumbnail.originalResource.publicUrl}" width="200"/>
+		</td>
+	</tr>
+</table>

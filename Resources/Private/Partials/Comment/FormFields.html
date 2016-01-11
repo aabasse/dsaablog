@@ -1,0 +1,17 @@
+
+<label for="userName">
+	<f:translate key="tx_dsaablog_domain_model_comment.user_name" />
+</label><br />
+	<f:form.textfield property="userName" /><br />
+<label for="title">
+	<f:translate key="tx_dsaablog_domain_model_comment.title" />
+</label><br />
+	<f:form.textfield property="title" /><br />
+<label for="content">
+	<f:translate key="tx_dsaablog_domain_model_comment.content" />
+</label><br />
+	<f:form.textarea property="content" cols="40" rows="15" /><br />
+<label for="publicationDate">
+	<f:translate key="tx_dsaablog_domain_model_comment.publication_date" />
+</label><br />
+	<f:form.textfield property="publicationDate"  value="{comment.publicationDate->f:format.date()}" /><br />

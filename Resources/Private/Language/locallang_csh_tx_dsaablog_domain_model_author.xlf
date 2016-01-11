@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-01-11T08:56:22Z" product-name="dsaablog">
+		<header/>
+		<body>
+			<trans-unit id="first_name.description">
+				<source>firstName</source>
+			</trans-unit>
+			<trans-unit id="last_name.description">
+				<source>lastName</source>
+			</trans-unit>
+			<trans-unit id="user_name.description">
+				<source>userName</source>
+			</trans-unit>
+			<trans-unit id="presentation.description">
+				<source>presentation</source>
+			</trans-unit>
+			<trans-unit id="tags.description">
+				<source>tags</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

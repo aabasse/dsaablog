@@ -1,0 +1,44 @@
+<T3DataStructure>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>Function</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<switchableControllerActions>
+						<TCEforms>
+							<label>Select function</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">post</numIndex>
+										<numIndex index="1">Post->list;Post->show</numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">author</numIndex>
+										<numIndex index="1">Author->list;Author->show</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">category</numIndex>
+										<numIndex index="1">Category->list;Category->show</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">tag</numIndex>
+										<numIndex index="1">Tag->list;Tag->show</numIndex>
+									</numIndex>
+									<numIndex index="4">
+										<numIndex index="0">comment</numIndex>
+										<numIndex index="1">Comment->reate</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</switchableControllerActions>
+				</el>
+			</ROOT>
+		</sDEF>
+	</sheets>
+</T3DataStructure>
