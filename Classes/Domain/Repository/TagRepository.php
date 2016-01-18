@@ -1,5 +1,6 @@
 <?php
 namespace Dawin2015\Dsaablog\Domain\Repository;
+
 /***************************************************************
  *
  *  Copyright notice
@@ -24,10 +25,12 @@ namespace Dawin2015\Dsaablog\Domain\Repository;
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
+
 /**
  * The repository for Posts
  */
 class TagRepository extends \TYPO3\CMS\Extbase\Persistence\Repository
 {
+
     
 }

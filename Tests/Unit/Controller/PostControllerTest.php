@@ -57,7 +57,7 @@ class PostControllerTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 
 		$allPosts = $this->getMock('TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage', array(), array(), '', FALSE);
 
-		$postRepository = $this->getMock('', array('findAll'), array(), '', FALSE);
+		$postRepository = $this->getMock('Dawin2015\\Dsaablog\\Domain\\Repository\\PostRepository', array('findAll'), array(), '', FALSE);
 		$postRepository->expects($this->once())->method('findAll')->will($this->returnValue($allPosts));
 		$this->inject($this->subject, 'postRepository', $postRepository);
 

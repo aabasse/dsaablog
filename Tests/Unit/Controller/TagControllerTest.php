@@ -57,7 +57,7 @@ class TagControllerTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 
 		$allTags = $this->getMock('TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage', array(), array(), '', FALSE);
 
-		$tagRepository = $this->getMock('', array('findAll'), array(), '', FALSE);
+		$tagRepository = $this->getMock('Dawin2015\\Dsaablog\\Domain\\Repository\\TagRepository', array('findAll'), array(), '', FALSE);
 		$tagRepository->expects($this->once())->method('findAll')->will($this->returnValue($allTags));
 		$this->inject($this->subject, 'tagRepository', $tagRepository);
 

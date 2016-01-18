@@ -32,12 +32,13 @@ namespace Dawin2015\Dsaablog\Controller;
  */
 class CommentController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
-    /**
-    *@var \Dawin2015\Dsaablog\Domain\Repository\CommentRepository
-    *@inject
-    */
-    protected $commentRepository;
 
+    /**
+     * @var \Dawin2015\Dsaablog\Domain\Repository\CommentRepository
+     * @inject
+     */
+    protected $commentRepository = null;
+    
     /**
      * action new
      *

@@ -57,7 +57,7 @@ class CategoryControllerTest extends \TYPO3\CMS\Core\Tests\UnitTestCase
 
 		$allCategories = $this->getMock('TYPO3\\CMS\\Extbase\\Persistence\\ObjectStorage', array(), array(), '', FALSE);
 
-		$categoryRepository = $this->getMock('', array('findAll'), array(), '', FALSE);
+		$categoryRepository = $this->getMock('Dawin2015\\Dsaablog\\Domain\\Repository\\CategoryRepository', array('findAll'), array(), '', FALSE);
 		$categoryRepository->expects($this->once())->method('findAll')->will($this->returnValue($allCategories));
 		$this->inject($this->subject, 'categoryRepository', $categoryRepository);
 

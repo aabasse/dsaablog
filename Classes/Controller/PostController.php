@@ -34,10 +34,12 @@ class PostController extends \TYPO3\CMS\Extbase\Mvc\Controller\ActionController
 {
 
     /**
-    *@var \Dawin2015\Dsaablog\Domain\Repository\PostRepository
-    *@inject
-    */
-    protected $postRepository;
+     * @var \Dawin2015\Dsaablog\Domain\Repository\PostRepository
+     * @inject
+     *
+     * @inject
+     */
+    protected $postRepository = null;
     
     /**
      * action list
